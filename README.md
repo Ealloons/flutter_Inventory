@@ -26,16 +26,16 @@ three.js : [three.js](https://threejs.org/, "three") <br>
 
 ## 소요 라이브러리
 * flutter
-- Web_view
-- Socket_io
-- image_picker
-- sqflite
+   - Web_view
+   - Socket_io
+   - image_picker
+   - sqflite
 * Server-python
-- Socket
-- IO
-- Threading
+   - Socket
+   - IO
+   - Threading
 * Web
-- Three.js
+   - Three.js
 * Converter-python
-- image
-- Numpy
+   - image
+   - Numpy
