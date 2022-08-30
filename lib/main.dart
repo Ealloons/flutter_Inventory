@@ -1,43 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:last/webview/GetImage.dart';
+import 'package:last/pages/add_edit_product.dart';
+import 'package:last/pages/home_page.dart';
 import 'dart:io';
-import 'package:webview_flutter/webview_flutter.dart';
+
+import 'pages/Category.dart';
+import 'pages/Layout.dart';
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(title: Text('앱임')),
-        body: Container(
-
-        )
-      )
-    );
-  }
-}
-class WebViewExample extends StatefulWidget {
-  @override
-  WebViewExampleState createState() => WebViewExampleState();
-}
-
-class WebViewExampleState extends State<WebViewExample> {
-  @override
-  void initState() {
-    super.initState();
-    // Enable virtual display.
-    if (Platform.isAndroid) WebView.platform = AndroidWebView();
+    return Layout();
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return WebView(
-      initialUrl: 'https://google.com',
-    );
-  }
 }
