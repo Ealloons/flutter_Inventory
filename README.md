@@ -20,7 +20,7 @@
 </p>
 
 ## 서버
-간단한 서버의 구현은 https://github.com/Ealloons/flutter_Inventory/blob/master/Server/server.py 에 있습니다.
+간단한 서버의 구현은 [Google](https://github.com/Ealloons/flutter_Inventory/blob/master/Server/server.py, "파이썬 ") 에 있습니다.
 
 
 
