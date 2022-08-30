@@ -22,7 +22,7 @@
 ## 참고 사항 및 출처
 간단한 서버의 구현은 [파이썬 코드](https://github.com/Ealloons/flutter_Inventory/blob/master/Server/server.py, "파이썬 ") 에 있습니다. <br>
 three.js : [three.js](https://threejs.org/, "three") <br>
-2d to 3d : [python]([https://threejs.org/](https://github.com/armindocachada/create-3d-model-using-python), "stl") <br>
+2d to 3d : [python](https://github.com/armindocachada/create-3d-model-using-python, "stl") <br>
 
 ## 소요 라이브러리
 * flutter
