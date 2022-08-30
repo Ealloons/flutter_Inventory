@@ -13,9 +13,10 @@
 사용자 앨범의 이미지를 소켓을 이용해 서버로 보낸 후 서버는 웹으로 3d 파일을 보여주고 해당 url을 사용자에게 답신합니다. <br>
 그리고 사용자는 웹뷰를 통해 이미지의 모델링 파일을 볼 수 있습니다.
 서버는 파이썬으로 구현하였고, 모델링은 three.js 를 이용했습니다.
-
-## 서버, 뷰어
-간단한 서버의 구현은 [python_code]: https://google.com "파이썬 "
+## 시스템 구성도
+<img src="./그림04.jpg" width="400" height="400">
+## 서버
+간단한 서버의 구현은 https://github.com/Ealloons/flutter_Inventory/blob/master/Server/server.py 에 있습니다.
 
 
 
